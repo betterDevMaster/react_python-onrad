@@ -1,0 +1,38 @@
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+We need a solution in Phyton, which runs as a service, multiplatform, receives dicom images (Dicom Server SCP) and can send these images to a PACS, Amazon AWS (S3), and / or Huawei (OBD), consuming methods from our Web Service for specific activities.
+
+Features
+
+Dicom Storage SCP
+- Compatible with Dicom 3.0
+- Compatible with all transfer syntax
+- Compatible with all SOPs
+- Compatible with all forms of compression
+- Option to transfer via TLS protocol
+- Routing option
+- Multi Thread
+- Log (receiving / sending studies) web based
+- Temporary storage (hours, days)
+- Communication with Web Service (methods) - API REST / JSON
+- Parameterization for Dicom Send / Amazon AWS (SDK S3) / SDK OBS HUAWEI
+- Front-end web based for port parameterization, aetitle and network data and
+options for start / stop;
+Control of modalities (what you will receive / send);
+Exam exclusion tools that are in the queue;
+Remote server settings (ip, port and viewer aetitle - dicom send);
+View station date / time and allow to change according to the location and validate
+globally;
+- Queue management (Upload / delete / block prioritization - routine, urgency, emergency)
+Urgency, emergency, date / time shipping, manual.
+- Visual visual metrics for memory / disk consumption
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+1. make SCP
+2. make configurable SCP with web UI.
+3. Integrate with PACS.
+4. Integrate with AWS S3
+5. Integrate with OBD
+6. User management in dashboard of Web UI. 
+7. DIcom data management in dashboard of Web UI. 
+8. Server settings in dashboard of Web UI. 
+9. Other requirements you want ...
+10. Test, fix bug, make stable and release contract.

@@ -1,0 +1,12 @@
+autopep8
+pydicom
+pynetdicom
+Flask
+flask_cors
+pycryptodomex
+cryptography
+waitress
+jstyleson
+boto3
+requests
+psutil

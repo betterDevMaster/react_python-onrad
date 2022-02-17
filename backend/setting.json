@@ -1,0 +1,26 @@
+{
+    "NAME": "MACIEL DICOM SERVER",
+    "VERSION": "0.9.0",
+    "COMPILATION": "Launch Mode",
+    "LAST_UPDATE": "10/28/2020",
+    "LOG": "/files/log",
+    "DEBUG": false,
+    "KEY_PUBLIC": "/files/keys/public_key.pem",
+    "KEY_PRIVATE": "/files/keys/private_key.pem",
+    "FLASK": {
+        "HOST": "0.0.0.0",
+        "PORT": 8000,
+        "SECRET": "#^%RTGYIH())&REdrfvU*^%EWEDCUG)&*%#EW$SXfg896434wsrtFCVUY*^$%^Drthg98^&$R^EDFg"
+    },
+    // "MYSQL": {
+    //     "HOST": "localhost",
+    //     "USER": "root",
+    //     "PASSWORD": "",
+    //     "PORT": 3306,
+    //     "MIGRATION": "/files/migration.sql"
+    // },
+    "SQLITE": {
+        "PATH": "/files/sqlite.db",
+        "MIGRATION": "/files/migration.sql"
+    }
+}
